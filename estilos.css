@@ -54,6 +54,7 @@ width: 100%;
 .containers h2 {grid-auto-rows: auto; margin-left: %;
 }
 
+
 .img__1{
          display: block;
          margin: 0 auto;
@@ -194,10 +195,27 @@ margin-bottom: 3%;}
        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
       }
     }
+   .contenedor{background: linear-gradient(270deg, #c1fbec, #ebf0aa, #cbf1ed);
+    background-size: 600% 600%;
 
-  
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+}
 
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}}
 
-
-
-
+    
