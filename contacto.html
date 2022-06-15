@@ -5,37 +5,46 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="estilos.css">
-    
-    <title>Formulario de contacto</title>
+     <title>Formulario de contacto</title>
 </head>
-<body> 
-  <header> 
+      <body>
+           <div class="contenedor"> 
+      <header class="imagen"> 
+    <!--Inicio del Header-->
+      <div>
           <h1> Dali Bar Musica y Tragos </h1>
+      </div>
          <nav>
- <div>
-     <ul class="menu">  
-        <li> <a class="menu__item1" href="index.html">Home</a> </li>
-        <li> <a class="menu__item1" href="index.html">Comidas</a> </li>
-        <li> <a class="menu__item1" href="bebidas.html">Bebidas</a></li>
-        <li> <a class="menu__item1" href="postres.html">Postres</a></li>
-        <li> <a class="menu__item1" href="jam.html">Jam</a></li>
-     </ul>
- </div>
-</nav>
+             <div>
+               <ul class="menu">  
+                <li> <a class="menu__item1" href="index.html">Home</a> </li>
+                <li> <a class="menu__item1" href="index.html">Comidas</a> </li>
+                <li> <a class="menu__item1" href="bebidas.html">Bebidas</a></li>
+                <li> <a class="menu__item1" href="postres.html">Postres</a></li>
+               <li> <a class="menu__item1" href="jam.html">Jam</a></li>
+             </ul> 
+       </div>
+         </nav>
   </header>
-    <section> 
-  <div>
+  <!--Final del Header-->
+  <main class="containers">
+    <section class="texto"> 
+     <div class="texto__1">
          <h1>Formulario de contacto</h1>
-                               <form action="" method="get" enctype="text/plain"></form>
+                               <form  action="" method="get" enctype="text/plain"></form>
                                <br>
-                               <input type="text" name="Usuario" placeholder="Nombre y apellido" id="">
+                               <input class="img__5" type="text" name="Usuario" placeholder="Nombre y apellido" id="">
                                <br> 
-                               <input type="text" name="Telefono" placeholder=" Telefono" id="">
+                               <input class="img__5" type="text" name="Telefono" placeholder=" Telefono" id="">
                                <br> 
-                               <input type="email" name="Email" placeholder="Email"  id="">
+                               <input class="img__5" type="email" name="Email" placeholder="Email"  id="">
                                <br>
-                               <textarea id=”mensaje” name=”mensaje” placeholder=" Comentarios"></textarea>
-                               <br> <input type="button" value="enviar">
-    </div>                           
+                               <textarea class="comentarios" id=”mensaje” name=”mensaje” placeholder=" Comentarios"></textarea>
+                               <br> <input class="enviar" type="button" value="enviar">
+    </div>     
+    </section>
+  </main>
+    <footer>&copy;2022 <span>Redes Sociales</span> 
+    </footer>                 
 </body>
 </html>

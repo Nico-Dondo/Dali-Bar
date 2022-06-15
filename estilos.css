@@ -158,11 +158,19 @@ body {
 
 .img__4 {
          margin-top: 5%;
-        }
+}
         
 .img__4:hover {
           -webkit-transform:scale(1.2);
-          transform:scale(1.2);}
+          transform:scale(1.2);
+}
+
+.img__5 {size: 50%;
+   
+border-color: black;
+border-top: 20%;
+
+}
 
 .texto__1{ 
         text-align: center;
