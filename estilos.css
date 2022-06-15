@@ -36,7 +36,8 @@ header nav div ul li{
            }
 
 header nav div ul li a{
-           text-decoration: none; 
+           text-decoration: none;
+           color: black; 
           }
           
 
@@ -44,178 +45,158 @@ body {
       flex-direction: column;
 }
       
-.contenedor {background-color: rgb(20, 212, 212);
-width: 100%;
-} 
+
 
 .contenedor header h1 {grid-auto-flow: row; padding-right: 35%; margin-left:10% ;
 }  
 
-.containers h2 {grid-auto-rows: auto; margin-left: %;
+.contenedor{ 
+             background-image: url(./fondo/azulejo.jpg);
+             max-width: 100%;
+             max-height: max-content;
+             opacity: 85%;
+  }
+
+.containers h2 {
+                grid-auto-rows: auto; margin-left: %;
 }
 
+.imagen {
+         text-align: center; justify-content: center;
+}
+
+.menu { 
+        text-align: center;
+        justify-content: center; margin-top: auto;
+        margin-left: 5%; 
+        margin-top: 3%;
+}
+
+.imagen {
+         text-align: center; justify-content: center;
+}
 
 .img__1{
          display: block;
          margin: 0 auto;
-         max-width: 40%;
-         width: 20%;  
+         max-width: 40%;  
          border: 5px solid black; 
          margin-left: auto;
+         justify-content: center;
 }
     
-.img__1 {width: 50%;
+.img__1 {
+         width: 50%;
          height: 50%;
          margin-top: 3%;
          margin-bottom: 3%;
 }
 
-.img__1:hover{-webkit-transform:scale(1.2);transform:scale(1.2);}
-.img__1 {overflow:hidden;}
-
-.img__3:hover{order-radius:50%;
-  -webkit-border-radius:50%;
-  box-shadow: 0px 0px 15px 15px #ec731e;
-  -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
-  transform: rotate(360deg);
-  -webkit-transform: rotate(360deg);
+.img__1:hover{
+              -webkit-transform:scale(1.2);
+              transform:scale(1.2);
+            }
+.img__1 {
+          overflow:hidden;
 }
- 
-.img__4:hover {-webkit-transform:scale(1.2);transform:scale(1.2);}
+
 .img__2 {
-  display: block;
-  margin: 0 auto;
-  max-width: 40%;
-  width: 20%;  
-  border: 5px solid black; 
-  margin-left: auto;
+          display: block;
+          margin: 0 auto;
+          max-width: 40%;
+          width: 20%;  
+          border: 5px solid black; 
+          margin-left: auto;
 }        
 
-.img__2{width: 50%;
-height: 50%;
-margin-top: 3%;
-margin-bottom: 3%;}
+.img__2 {
+          width: 50%;
+          height: 50%;
+          margin-top: 3%;
+          margin-bottom: 3%;
+        }
 
-.img__3{display: block;
-  margin: 0 auto;
-  max-width:  400px;
-  width: 20%;  
-  border: 5px solid black; 
-  margin-left: auto; 
+.img__3 {
+          display: block;
+          margin: 0 auto;
+          max-width:  400px;
+          width: 20%;  
+          border: 5px solid black; 
+          margin-left: auto; 
 }
 
 .img__3 { 
-  width: 50%;
-  height: 50%;
-  margin-top: 3%;
-  margin-bottom: 3%;
+         width: 50%;
+         height: 50%;
+         margin-top: 3%;
+         margin-bottom: 3%;
 }
+
+.img__3:hover {
+              order-radius:50%;
+              -webkit-border-radius:50%;
+              box-shadow: 0px 0px 15px 15px #ec731e;
+              -webkit-box-shadow: 0px 0px 15px 15px #ec731e;
+              transform: rotate(360deg);
+              -webkit-transform: rotate(360deg);
+}
+ 
+
 .img__4 {
         display: block;
         margin: 0 auto;
-        max-width:1200px;
-        width: 20%;  
+        max-width:1200px;  
         border: 5px solid black; 
         margin-left: auto; }
 
-.img__4 {width: 30%;
-height: 50%;
-margin-top: 3%;
-margin-bottom: 3%;}       
+.img__4 {
+         width:40%;
+         height: 40%;
+         margin-top: 3%;
+         margin-bottom: 3%;
+        }       
 
-.img__4 {margin-top: 5%;}
+.img__4 {
+         margin-top: 5%;
+        }
+        
+.img__4:hover {
+          -webkit-transform:scale(1.2);
+          transform:scale(1.2);}
 
-
-
-.texto__1{ text-align: center;
+.texto__1{ 
+        text-align: center;
 }
 
-.texto__1a {text-align: center;
+.texto__1a {
+        text-align: center;
 }
 
-.texto__1b {text-align: center;
+.texto__1b {
+         text-align: center;
 }
 
-.texto__2 {display: block;
-  margin: auto;
-  max-width: 100%;
-  width: 80%;
+.texto__2 {
+         display: block;
+         margin: auto;
+         max-width: 100%;
+         width: 80%;
  }
 
- .texto__3{ text-align: center; }
+ .texto__3{ 
+         text-align: center;
+ }
 
- .texto__4{  display: block;
-  margin: 0 auto;
-  max-width: 100%;
-  width: 80%;}
-
-
-.texto__4{ margin-top: 5%; font-size: x-large;font-family: Arial, Helvetica, sans-serif;}
+ .texto__4 {
+            text-align: center;
+          font-size: large;}
  
+footer{
+           background-color: rgb(109, 160, 42); margin-bottom:auto;
+           margin-top:auto ;}
 
- footer{
-        background-color: rgb(42, 160, 52); margin-bottom: 0%;
-        margin-top: 5%;}
-
-.contacto {display: inline-block; position:relative;
+.contacto {
+          display: inline-block; position:relative;
     }
 
-    @media screen and (max-width: 640px) {
-      .contenedor {
-        background: rgb(141, 141, 235);
-      }
-    }
-    
-    @media screen and (min-width: 640px) and (max-width: 1280px) {
-      .contenedor {
-        background: rgb(206, 121, 121);
-      }
-    }
-    
-    @media screen and (min-width: 1280px) {
-      .contenedor {
-        background: rgb(192, 228, 192);
-      }
-    }
-
-    @media screen and (max-width: 640px) {
-      .contenedor {
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      }
-    }
-    
-    @media screen and (min-width: 640px) and (max-width: 1280px) {
-      .contenedor {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-      }
-    }
-    
-    @media screen and (min-width: 1280px) {
-      .contenedor {
-       font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-      }
-    }
-   .contenedor{background: linear-gradient(270deg, #c1fbec, #ebf0aa, #cbf1ed);
-    background-size: 600% 600%;
-
-    -webkit-animation: AnimationName 8s ease infinite;
-    -moz-animation: AnimationName 8s ease infinite;
-    animation: AnimationName 8s ease infinite;
-}
-
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}}
-
-    
+   
