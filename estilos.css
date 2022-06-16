@@ -47,10 +47,10 @@ body {
       
 
 
-.contenedor header h1 {grid-auto-flow: row; padding-right: 35%; margin-left:10% ;
+.container header h1 {grid-auto-flow: row; padding-right: 35%; margin-left:10% ;
 }  
 
-.contenedor{ 
+.container{ 
              background-image: url(./fondo/azulejo.jpg);
              max-width: 100%;
              max-height: max-content;
@@ -172,6 +172,21 @@ border-top: 20%;
 
 }
 
+.carousel-inner{
+        display: block;
+        margin: 0 auto;
+        max-width:40%;  
+        margin-left: auto;
+        justify-content: center;
+}
+
+.carousel-inner{ width:50%;
+        height: 50%;
+        margin-top: 10%;
+        margin-left:38%;
+        padding-bottom: 25%;
+        position: relative;
+}
 .texto__1{ 
         text-align: center;
 }
